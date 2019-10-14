@@ -4,11 +4,17 @@ import (
 	"fmt"
 )
 
-func main() {
-	fmt.Println("Starting ns-core...")
-}
-
 // ImportCheck for nspx
 func ImportCheck() {
-	fmt.Println("Nerdspex core imported.")
+	fmt.Println("nspx core imported.")
+}
+
+// AddProduct function for adding products
+func AddProduct() {
+	// code here
+}
+
+// DescribeProduct functino for desribing products
+func DescribeProduct() {
+
 }
