@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// ImportCheck for nspx
-func ImportCheck() {
-	fmt.Println("nspx core imported.")
+// Hello from Nspx
+func Hello() {
+	fmt.Println("Hello from Nspx!")
 }
