@@ -6,21 +6,27 @@ package nspx
 type Product struct {
 	ID   string `json:"id"`
 	Name string `json:"name"`
-	// ProductType   string `json:"type"`
-	// ProductPrice  string `json:"price"`
-	// ProductWeight int    `json:"productWeight"`
-	// BatteryAvl    bool   `json:"batteryAvl"`
-	// BatteryType   string `json:"batteryType"`
-	// BatteryPower  int    `json:"batteryPower"`
+	ProductType   string `json:"type"`
+	ProductPrice  string `json:"price"`
+	ProductWeight int    `json:"productWeight"`
+	BatteryAvl    bool   `json:"batteryAvl"`
+	BatteryType   string `json:"batteryType"`
+	BatteryPower  int    `json:"batteryPower"`
+//	color, brand,
 }
 
 // Electronics type
+// self powered / powered electronics
+// screenSize, batteryPower, batteryTime, fingerPrint (self-powered)
+// cameras, wifi, blueTooth, chargerType, audioJack,
+// monitors, storages (hardDisk, usb, ssd), headPhones, otherSoundProducts, ram, cpu, pci, graphicCard,
+// 
 type Electronics struct {
 }
 
 // Laptop type
 type Laptop struct {
-	BacklitKb         bool   `json:"backlitkKb"`
+	BacklitKb         bool   `json:"backlitKb"`
 	TouchScreen       bool   `json:"touchScreen"`
 	WiFi              bool   `json:"wifi"`
 	WiFiConnectivity  string `json:"wifiConnectivity"`
